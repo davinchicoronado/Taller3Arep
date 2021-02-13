@@ -14,3 +14,8 @@ Para ejecutar el proyecto utilizando la herramienta Maven, nos dirigimos al dire
 ```
 mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.packageExample.mainExample"
 ```
+## Implementación
+
+### Calentamiento
+#### Ejercicio1
+Este se desarrollo en la clase URLParser es muy simple pero hay que saber como crear o usar una URL para poder obtener todos sus atributos.
