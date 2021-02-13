@@ -40,14 +40,17 @@ public class EchoServer {
                     clientSocket.getInputStream()));
         
         String inputLine, outputLine;
-        
+        Integer value;
+        int cont=0;
         while ((inputLine = in.readLine()) != null) {
             System.out.println("Mensaje:" + inputLine);
-            outputLine = "Respuestas: " + inputLine ;
+            value=Integer.parseInt(inputLine);
+            value=value*value;
+            outputLine = String.valueOf(value);
             out.println(outputLine);
-            if (outputLine.equals("Respuestas: Bye."))
+            if (cont>19)
                     break;
-            
+            cont++;
         }
         out.close();
         in.close();

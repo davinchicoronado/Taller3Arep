@@ -38,9 +38,14 @@ public class EchoClient {
                                             new InputStreamReader(System.in));
         
         String userInput;
+        int cont=0;
         while ((userInput = stdIn.readLine()) != null) {
             out.println(userInput);
-            System.out.println("echo: " + in.readLine());
+            System.out.println("Respuesta: " + in.readLine());
+            cont++;
+            if(cont>19){
+                break;
+            }
         }
         
         out.close();
