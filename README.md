@@ -11,7 +11,5 @@ Para la realización y ejecución tanto del programa como de las pruebas de este
 ## Ejecución 
 Para ejecutar el proyecto utilizando la herramienta Maven, nos dirigimos al directorio donde se encuentra alojado el proyecto, y dentro de este ejecutamos en un Shell o Símbolo del Sistema el siguiente comando:
 
-```
-mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.packageExample.mainExample"
-
+```mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.packageExample.mainExample"
 ```
