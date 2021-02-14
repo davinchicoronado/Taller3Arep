@@ -20,3 +20,10 @@ mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.packageExample.mainExample"
 #### Ejercicio1
 Este se desarrollo en la clase URLParser es muy simple pero hay que saber como crear o usar una URL para poder obtener todos sus atributos.
 
+#### Ejercicio2
+Este se desarrollo en la clase URLReader que lee una URL y toda la información que pueda obtener la guardará en un archivo llamado resultado.html.
+
+
+#### Ejercicio3
+La clase EchoServer por medio de sockets recibira enteros y devolverá su cuadrado, y por la clase EchoClient leerá enteros y estos enteros se los enviará a EchoServer retornandole el cuadrado del número luego EchoClient recibirá este valor  y lo imprimirá. Para poder realizar lo anteriormente descrito deberemos ejecutar las dos clases simultaneamente.
+
