@@ -19,3 +19,4 @@ mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.packageExample.mainExample"
 ### Calentamiento
 #### Ejercicio1
 Este se desarrollo en la clase URLParser es muy simple pero hay que saber como crear o usar una URL para poder obtener todos sus atributos.
+
