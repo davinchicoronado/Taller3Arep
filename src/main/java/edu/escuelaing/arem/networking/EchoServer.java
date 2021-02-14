@@ -42,6 +42,7 @@ public class EchoServer {
         String inputLine, outputLine;
         Integer value;
         int cont=0;
+        System.out.println("Ingresa un número para calcular su el cuadrado de este.");
         while ((inputLine = in.readLine()) != null) {
             System.out.println("Mensaje:" + inputLine);
             value=Integer.parseInt(inputLine);

@@ -29,7 +29,7 @@ public class URLParser
         } catch (MalformedURLException ex) {
                 ex.printStackTrace();
         }
-        //https://developer.mozilla.org/es/docs/Learn/Common_questions/Qu%C3%A9_es_una_URL
+        //https://developer.mozilla.org/es/docs/Learn/Common_questions/Qué_es_una_URL
         
     }
     

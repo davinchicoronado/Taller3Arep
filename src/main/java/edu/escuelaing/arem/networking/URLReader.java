@@ -26,7 +26,7 @@ public class URLReader {
         url = myObj.nextLine();
         
         URL google = new URL(url); 
-        PrintWriter writer = new PrintWriter("pagina.html", "UTF-8");
+        PrintWriter writer = new PrintWriter("resultado.html", "UTF-8");
         
         
         try (BufferedReader reader
