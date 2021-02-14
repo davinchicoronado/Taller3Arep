@@ -26,4 +26,8 @@ Este se desarrollo en la clase URLReader que lee una URL y toda la información 
 
 #### Ejercicio3
 La clase EchoServer por medio de sockets recibira enteros y devolverá su cuadrado, y por la clase EchoClient leerá enteros y estos enteros se los enviará a EchoServer retornandole el cuadrado del número luego EchoClient recibirá este valor  y lo imprimirá. Para poder realizar lo anteriormente descrito deberemos ejecutar las dos clases simultaneamente.
-
+ <p align="center">
+    <img src="https://github.com/davinchicoronado/Taller3Arep/blob/main/img/resultado.png?raw=true" alt="Sublime's custom image"/>
+  </p>
+  
+  ##  Reto1
