@@ -30,4 +30,4 @@ La clase EchoServer por medio de sockets recibira enteros y devolverá su cuadra
     <img src="https://github.com/davinchicoronado/Taller3Arep/blob/main/img/resultado.png?raw=true" alt="Sublime's custom image"/>
   </p>
   
-  ##  Reto1
+  ##  Reto 1
